@@ -41,4 +41,4 @@ bedtools intersect -wa -u -f 0.25  -b Contactdomainsasbedfile.bed -a tmp-r.bed|s
 bedtools intersect -wa -u -f 0.25  -b Contactdomainsasbedfile.bed -a tmp2-r.bed|sort -u  | wc -l >> $2.srnd
 done 
 
-Rscript plot_his3.R $1.rnd  $2.rnd $1.srnd  $2.srnd $3
+Rscript plot_his.R $1.rnd  $2.rnd $1.srnd  $2.srnd $3
