@@ -2,6 +2,9 @@
 
 ##Scripts used in Robson et al 2016
 
+### fig_s3.sh
+Wrapper to reproduce figure S3 using contents of this repo
+
 ### sample.pl
 Randomly selects 500 features from a bed file, useful for between-file normalisation.
 
