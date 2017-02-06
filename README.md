@@ -14,7 +14,7 @@ For each of 2 bed files:
 * Create 1000 replicates and plot histograms using ggplot2 in R.
 
 ## Data files 
-* hg19_gaps_s.bed : unmappable regions 
+* hg19_gaps_s.bed : unmappable regions from UCSC (From Genome Table Browser: gap table under Sequencing and mapping) 
 * Contactdomainsasbedfile.bed : TADs from HiC 
 * hg19.genome : chromosomal lengths 
 * LADS-a.bed : LADs detected in Activated 
