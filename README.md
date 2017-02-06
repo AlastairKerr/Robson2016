@@ -2,8 +2,8 @@
 
 ##Scripts used in Robson et al 2016
 
-### fig_s3.sh
-Wrapper to reproduce figure S3 using contents of this repo
+### fig_s5a.sh
+Wrapper to reproduce figure S5a using contents of this repo
 
 ### sample.pl
 Randomly selects 500 features from a bed file, useful for between-file normalisation.
@@ -14,6 +14,7 @@ For each of 2 bed files:
 * Create 1000 replicates and plot histograms using ggplot2 in R.
 
 ## Data files 
+* hg19_gaps_s.bed : unmappable regions 
 * Contactdomainsasbedfile.bed : TADs from HiC 
 * hg19.genome : chromosomal lengths 
 * LADS-a.bed : LADs detected in Activated 
